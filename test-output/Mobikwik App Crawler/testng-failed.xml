@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Mobikwik App Crawler]" parallel="tests">
+  <test name="App Crawler(failed)" parallel="tests">
+    <classes>
+      <class name="crawlers.RandomTest">
+        <methods>
+          <include name="ramdomUITest"/>
+          <include name="verifySignUpFlow"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- crawlers.RandomTest -->
+    </classes>
+  </test> <!-- App Crawler(failed) -->
+</suite> <!-- Failed suite [Mobikwik App Crawler] -->

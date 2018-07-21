@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mobikwik App Crawler" thread-count="1" parallel="tests" verbose="1">
+
+	<test name="App Crawler">
+		<classes>
+			<class name="crawlers.RandomTest" />
+		</classes>
+	</test>
+
+</suite>
